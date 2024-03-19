@@ -1,0 +1,34 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 95%;
+  background-color: white;
+  text-align: center;
+  background-color: ghostwhite;
+  border-color: ghostwhite;
+  z-index: 1000; /* Ensure it's on top of other elements */
+  max-width: 100%;
+  margin-left: 10px;
+  border: 2px solid ghostwhite;
+}
+
+/* The rest of your existing styles for nav and nav a */
+nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  padding: 8px 15px;
+  border-radius: 5px;
+  background-color: #45a049;
+  transition: background-color 0.3s;
+}
+
+nav a:hover {
+  background-color: #3d8442;
+}

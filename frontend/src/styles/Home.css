@@ -1,0 +1,80 @@
+.H-container{
+    margin-top: 220px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.start{
+    margin-top: 120px;
+    font-size: 40px;
+     font-family: ui-monospace;
+}
+.greet{
+    font-size: 47px;
+    color: darkgreen;
+
+}
+.firstimage{
+    width: 80%;
+    height: 600px;
+    margin-left: 50px;
+
+}
+.second{
+    font-size: 30px;
+    text-align: center;
+}
+.secondimage{
+    height: 500px;
+}
+.third{
+    font-size: 25px;
+    position: absolute;
+}
+.point{
+    position: relative;
+    margin-left: 100px;
+    margin-top:30px;
+    top: 0;
+}
+.innercontainer {
+    display: flex;
+}
+
+.image {
+    flex: 1; 
+    max-width: 550px;
+}
+.point1{
+    margin-top: 10px;
+}
+.pt1{
+    font-size: 28px;
+}
+.high{
+    font-size: 28px;
+    color: darkgreen;
+}
+.high:hover{
+    color:darkblue;
+}
+
+.final img{
+    margin-left: 300px;
+}
+
+.final{
+    font-size: 28px;
+}
+.quote{
+    font-size: 30px;
+    color: darkgreen;
+}
+
+.btt{
+    border: 2px solid  darkgreen;
+    margin-left: 40%;
+    font-size: 25px;
+    padding: 15px 20px;
+} 
+
+
