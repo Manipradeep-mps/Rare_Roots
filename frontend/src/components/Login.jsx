@@ -32,7 +32,7 @@ function Login() {
 
 
     async function fetchdata(){
-        await fetch("http://localhost:8000/login",{
+        await fetch("https://rare-roots.onrender.com/login",{
          method:"POST",
          body:JSON.stringify({
            "email":email,

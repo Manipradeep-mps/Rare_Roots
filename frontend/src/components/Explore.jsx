@@ -45,7 +45,7 @@ function Explore() {
 
   async function getpost() {
     try {
-      const res = await fetch('http://localhost:8000/api/getAllPosts',{
+      const res = await fetch('https://rare-roots.onrender.com/api/getAllPosts',{
          method:"GET",
          headers:{
            'Authorization':`Bearer ${localStorage.getItem('userdata')}`

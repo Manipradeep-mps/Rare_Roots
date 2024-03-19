@@ -26,7 +26,7 @@ function Register() {
         fetchdata();
         
          async function fetchdata(){
-           await fetch("http://localhost:8000/register",{
+           await fetch("https://rare-roots.onrender.com/register",{
             method:"POST",
             body:JSON.stringify({
               "name":name,

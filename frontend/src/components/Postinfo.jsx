@@ -25,7 +25,7 @@ function Postinfo() {
     const [data,setdata]=useState([])
 
    async function getpost(){
-       const res=await fetch(`http://localhost:8000/api/getOnePost?id=${id}`,{
+       const res=await fetch(`https://rare-roots.onrender.com/api/getOnePost?id=${id}`,{
         headers:{
           'Authorization':`Bearer ${localStorage.getItem('userdata')}`
         }

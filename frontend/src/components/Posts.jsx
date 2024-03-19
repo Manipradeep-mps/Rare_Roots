@@ -82,7 +82,7 @@ curruseremail=payloadObject.useremail;
   }
 
   async function imgup(data){
-    await fetch("http://localhost:8000/image/upload",{
+    await fetch("https://rare-roots.onrender.com/image/upload",{
         method:"POST",
         body:data
       })
@@ -131,7 +131,7 @@ async function getmypost(){
     const reqobj={
       objectid:objid
     }
-    const res=await fetch(`http://localhost:8000/api/getMyPost?objectid=${objid}`,{
+    const res=await fetch(`https://rare-roots.onrender.com/api/getMyPost?objectid=${objid}`,{
       method:"GET",
       headers:{
         'Authorization':`Bearer ${localStorage.getItem('userdata')}`
@@ -141,7 +141,7 @@ async function getmypost(){
     console.log(info)
 }
 async function getobjid(){
-  const res=await fetch('http://localhost:8000/login/obj',{
+  const res=await fetch('https://rare-roots.onrender.com/login/obj',{
     method:"POST",
   body:JSON.stringify({
     "email":`${curruseremail}`
@@ -189,7 +189,7 @@ const obj={
 
 
  // console.log(obj);
-   const res=await fetch('http://localhost:8000/data/post',{
+   const res=await fetch('https://rare-roots.onrender.com/data/post',{
     method:"POST",
     body:JSON.stringify(obj),
     headers:{
